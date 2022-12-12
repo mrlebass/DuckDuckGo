@@ -19,3 +19,14 @@ Requisitos não funcionais:
 – Configurar o projeto para baixo consumo do Chrome nas configurações e2e;
 
 – Utilize commands como boa prática para codar os cenários abaixo.
+
+
+# Observações:
+
+- Pensando no processo de Shift Left Testing no ciclo de vida do desenvolvimento de um software, os testes acima foram desenvolvdos utilizando o modelo de BDD (Behavior Driven Development) sem uso de cucumber, visando deixar os testes menos verbosos, além de trazer mais  agilidade e favorecendo a qualidade nas fases mais iniciais do processo.
+
+- Alinhado ao Shift Left Testing, trouxe o Test Approach para elucidar a Pirâmide de testes dando mais enfâse aos testes de serviços, uma vez que o frontend invoca um **backend** de Arquitetura REST, tendo sempre como objetivo um processo maduro de CI & CD.
+ 
+
+![image](https://user-images.githubusercontent.com/48696451/207122367-99e8e1b9-56e3-4c5c-8cae-29892d48c70e.png)
+

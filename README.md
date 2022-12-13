@@ -23,7 +23,7 @@ Requisitos não funcionais:
 
 # Observações:
 
-Na wiki do projeto detalho mais sobre as estratégias de testes utiilizadas para este projeto, bem como posíveis melhorias
+Na wiki do projeto detalho mais sobre as estratégias de testes utiilizadas para este projeto, bem como possíveis melhorias
 
 https://github.com/mrlebass/DuckDuckGo/wiki
 

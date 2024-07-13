@@ -20,18 +20,19 @@
 
 
 
-Requirements:
-– Cypress vs. 10.7.0;
+- Requirements:
+  
+  - Cypress vs. 10.7.0;
 
-– Use step nomenclature in the Camel Case standard;
+  - Use step nomenclature in the Camel Case standard;
 
-– Use describe and it nomenclature in a clear and objective way;
+  - Use describe and it nomenclature in a clear and objective way;
 
-– Create comments in the code in order to make it clear what was developed in the requirements;
+  - Create comments in the code in order to make it clear what was developed in the requirements;
 
-– Configure the project for low Chrome consumption in e2e settings;
+  - Configure the project for low Chrome consumption in e2e settings;
 
-– Use commands as a good practice to code the scenarios below.
+  - Use commands as a good practice to code the scenarios below.
 
 
 # Comments:

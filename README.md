@@ -117,28 +117,6 @@ Generate Test Report: You can use the mochawesome plugin to generate test report
 ## Contributing
 Contributions are welcome! Feel free to open issues and pull requests.
 
-
-
-
-## Objective: Conduct a search on DuckDuckGo for the latest Bitcoin news.
-
-
-
-- Requirements:
-  
-  - Cypress vs. 10.7.0;
-
-  - Use step nomenclature in the Camel Case standard;
-
-  - Use describe and it nomenclature in a clear and objective way;
-
-  - Create comments in the code in order to make it clear what was developed in the requirements;
-
-  - Configure the project for low Chrome consumption in e2e settings;
-
-  - Use commands as a good practice to code the scenarios below.
-
-
 ## Comments:
 
   - It was used step nomenclature in the Camel Case standard;

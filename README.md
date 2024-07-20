@@ -56,10 +56,10 @@ Before starting, make sure you have the following installed on your machine:
 
 The project is organized as follows:<br>
 cypress/<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;├── e2e <br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;├── fixtures/<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;├── screenshots/<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;└── support/<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|── e2e <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|── fixtures/<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|── screenshots/<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|── support/<br>
 cypress.json<br>
 package.json<br>
 
@@ -91,11 +91,13 @@ yarn cypress run
 ## Additional Configuration:
 You can configure Cypress by editing the cypress.json file. <br>
 For example:<br>
+```json
 {
-  "baseUrl": "http://localhost:3000",<br>
-  "viewportWidth": 1280,<br>
-  "viewportHeight": 720<br>
+  "baseUrl": "http://localhost:3000",
+  "viewportWidth": 1280,
+  "viewportHeight": 720
 }
+```
 
 ## Useful Commands:
 Update Cypress: <br>
@@ -131,3 +133,8 @@ Contributions are welcome! Feel free to open issues and pull requests.
   
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;👇🏾 👇🏾 👇🏾 <br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://github.com/mrlebass/DuckDuckGo/wiki" target="_blank"><img src="https://img.shields.io/badge/-GitWiki-%23333?&style=flat&logo=github" target="_blank"></a>
+
+```javascript
+This `README.md` provides clear instructions on how to set up and run tests with Cypress, as well as additional information about the project structure and useful commands.
+If you need any changes or additions, feel free to let me know!
+```
